@@ -28,3 +28,7 @@ the import_nslc failes with ` certificate verify failed: Missing Subject Key Ide
 * Fix AttributeError: 'Polygon' object has no attribute '__contains__' in import_osm.py
 
 add .gitignore to ignore `.venv` in boundaries and commit the whole changes with `feat: add Claude Code vibe-coded village boundaries verifier`
+
+Can you try to add more checks
+* Still output the village row if village presents in NLSC but not OSM
+* Output orphan OSM relationships
